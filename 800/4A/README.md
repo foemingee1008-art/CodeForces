@@ -1,6 +1,7 @@
 Problem : https://codeforces.com/problemset/problem/4/A (Watermelon)
 Rating : 800
 Language : C++
+Tag : Brute force, Math
 Status : Solved independently
 
 1. Problem summary

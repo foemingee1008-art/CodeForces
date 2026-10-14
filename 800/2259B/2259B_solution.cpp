@@ -22,17 +22,21 @@ int main(){
         int two = 0;
         
         for (int i = 0; i < n; i++){
+            //if number is odd
             if (a[i] % 2 == 1){
                 one++;
             } else {
-                if ((a[i] / 2) % 2 == 0){
+                //if number is even
+                if ((a[i] / 2) % 2 == 0){ 
+                    //need even operations to become 0
                     zero++;
                 } else {
+                    //need odd operations
                     two++;
                 }
             }
         }
-        
+        //print the max
         int ans = max({zero, one, two});
         cout << ans << '\n';
     }

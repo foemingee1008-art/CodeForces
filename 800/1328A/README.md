@@ -1,6 +1,7 @@
 Problem : https://codeforces.com/problemset/problem/1328/A (Divisibilty Problem)
 Rating : 800
 Language : C++
+Tag : Math
 Status : Solved independently
 
 1. Problem summary
