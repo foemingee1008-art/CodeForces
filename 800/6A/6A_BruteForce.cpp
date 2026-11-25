@@ -23,8 +23,9 @@ void solve(){
     else cout << "IMPOSSIBLE" << "\n";
 }
 
-int main()
-{
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     solve();
     return 0;
 }
